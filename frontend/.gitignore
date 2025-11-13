@@ -1,0 +1,17 @@
+# Frontend (Vite + React)
+node_modules/
+dist/
+.vite/
+*.local
+*.log
+
+# Env
+.env
+.env.*
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea

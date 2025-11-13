@@ -1,0 +1,27 @@
+# Backend (Node + Express)
+node_modules/
+logs
+*.log
+*.log.*
+
+# Env
+.env
+.env.*
+
+# Build/coverage
+coverage/
+dist/
+build/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# DB dumps
+*.bson
+*.wt
+*.sqlite
+*.db

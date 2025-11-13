@@ -1,0 +1,65 @@
+# Root Gitignore for backend and frontend
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Env files
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build outputs
+/dist
+/build
+/.cache
+/.next
+.next/
+out/
+coverage/
+
+# Vite
+vite.config.ts.timestamp-*
+*.tsbuildinfo
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Misc
+*.pem
+*.p12
+*.key
+
+# OneDrive artifacts
+~$*
+*.tmp
+
+# Netlify
+.netlify/
+
+# Render local
+.render/
+
+# Prisma (if later added)
+prisma/*.db
+
+# Mongo dump
+*.bson
+*.wt
